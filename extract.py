@@ -2,6 +2,7 @@
 import re
 import csv
 
+#This comment is to create a conflict
 clickData = open("clickData.csv", 'w')
 clickData.write("event,adId,campaignID,xForwardedFor,stateID,cityID" + '\n') 
 renderData = open("renderData.csv", 'w')
