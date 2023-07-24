@@ -2,6 +2,7 @@
 import re
 import csv
 
+#Opening two files, one for the event click, other for render and writing columns headers into them
 clickData = open("clickData.csv", 'w')
 clickData.write("event,adId,campaignID,xForwardedFor,stateID,cityID" + '\n') 
 renderData = open("renderData.csv", 'w')
